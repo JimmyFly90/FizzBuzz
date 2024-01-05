@@ -1,9 +1,4 @@
-let number = 1;
-
-let answer = "";
-
-for (let i = 1; i < 101; i++) {
-    answer += number++;
+for (let i = 1; i < 102; i++) {
     if (i % 15 == 0) {
         console.log("FizzBuzz")
     }
@@ -15,4 +10,4 @@ for (let i = 1; i < 101; i++) {
     else {
         console.log(i);
     } 
-} 
+} // updated code to remove the two variables created outside of the loop. 
